@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(249, 248, 243);
+    font-size: 1.1rem;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+#header {
+    height: calc(100vh - 260px);
+    background-color: rgb(29, 79, 158);
+    color: white;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 1rem unset;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgb(29, 79, 158);
+}
+
+p {
+    text-align: left;
+}
+
+.text-white {
+    color: white;
+}
+
+.valign {
+    display: flex;
+    align-items: center;
+}
+
+.section-content {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    align-items: top;
+    margin: 8px 0;
+}
+
+.project-container img {
+    object-fit: fill;
+    width: 60px;
+    height: 60px;
+}
+
+.project-description {
+    text-align: left;
+    padding: 0 8px;
+}
+
+.project-description a {
+    text-decoration: none;
+    color: rgb(157, 28, 28);
+    font-weight: bold;
+}
+
+.project-description a:hover {
+    color: rgb(211, 50, 50);
+}
+
+.form {
+    padding: 8px;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(29, 79, 158, 0.5);
+    border-radius: 4px;
+    text-align: left;
+}
+
+.form label {
+    display: block;
+}
+
+.form input,
+.form textarea {
+    width: calc(100% - 8px);
+    margin: 8px auto;
+    padding: 4px;
+}
+
+.form textarea {
+    height: 3rem;
+}
+
+.submit-button {
+    
+}
+
+#footer {
+    height: calc(100vh - 520px);
+    background-color: rgb(29, 79, 158);
+    color: white;
+    margin: 0;
+}
+
+@media (min-width: 500px) {
+    .section-content {
+        width: 70%;
+    }
+}
