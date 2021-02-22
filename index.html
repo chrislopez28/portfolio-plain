@@ -11,21 +11,28 @@
 </head>
 
 <body>
-    <header id="header" class="valign">
+    <div id="stars"></div>
+    <header id="header" class="header valign">
         <div class="section-content">
             <h1 class="text-white">Chris Lopez</h1>
-            <h2>Software developer with a focus on front-end development and data visualization.</h2>
+            <h2>Software developer with a focus on front-end development.</h2>
         </div>
-
     </header>
 
     <section id="about" class="valign">
         <div class="section-content">
-            <h1>Hello!</h1>
-            <p><strong>I'm a engineer and software developer located in Los Angeles.</strong></p>
-            <p>I specialize in front-end development and data visualization.</p>
+            <h1>About</h1>
+            <p><strong>I'm an engineer and software developer located in Los Angeles, USA.</strong></p>
+            <p>
+                I specialize in front-end development.
+            </p>
+            <p>
+                Prior to working in software, I worked as an
+                environmental engineer specializing in watershed protection and data science.
+            </p>
         </div>
     </section>
+    <hr class="divider" />
 
     <section id="projects" class="valign">
         <div class="section-content">
@@ -69,35 +76,57 @@
 
         </div>
     </section>
+    <hr class="divider" />
+
 
     <section id="experience" class="valign">
         <div class="section-content">
             <h1>Experience</h1>
+            <div class="experience-container">
+                <strong>Water Resource Control Engineer</strong> at California Environmental Protection Agency from
+                April 2016 - March 2020
+                <ul>
+                    <li>Worked in a team of scientists, geologists, and engineers that implemented programs to reduce
+                        pollution from stormwater and improve water sustainability</li>
+                    <li>Developed scripts to analyze water quality data (R, Shiny, Python, ArcGIS, Git)</li>
+                    <li>Built and maintained an officewide database and intranet site to track issuance of permits,
+                        replacing a paper-based system (MySQL)</li>
+                    <li>Led workgroups and gave presentations on coding in R and data analysis</li>
+                </ul>
+            </div>
+            <div class="experience-container">
+                <strong>Environmental Scientist</strong> at California Environmental Protection Agency from June 2010 -
+                April 2016
+                <ul>
+                    <li>Worked in a team of technical and legal staff that developed enforcement cases against
+                        environmental polluters</li>
+                </ul>
+            </div>
         </div>
     </section>
+    <hr class="divider" />
 
-    <section id="experience" class="valign">
+    <section id="contact" class="valign">
         <div class="section-content">
             <h1>Contact Me</h1>
+            <p>Want to say hello? Send me a message using the form below.</p>
+            <form class="form" action="https://formspree.io/f/mzbkqlpo" method="POST">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" />
+                </div>
 
-                <form class="form">
-                    <div>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" />
-                    </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" />
+                </div>
 
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" />
-                    </div>
-
-                    <div>
-                        <label>Message</label>
-                        <textarea></textarea>
-                    </div>
-                    <input class="submit-buton" type="submit" value="Submit" />
-                </form>
-
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <button class="submit-button" type="submit">Submit</button>
+            </form>
         </div>
     </section>
 
