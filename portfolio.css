@@ -6,7 +6,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(249, 248, 243);
+    background-color: #f9f8f3;
     font-size: 1.1rem;
 }
 
@@ -17,9 +17,17 @@ body {
 
 .header {
     height: calc(100vh - 260px);
-    background-color: rgb(29, 79, 158);
+    background-color: #1d4f9e;
     color: white;
     margin: 0;
+}
+
+#top-border {
+    width: auto;
+    display: block;
+    margin-left: calc(-1920px + 100%);
+    padding: 0;
+    margin-right: 0;
 }
 
 /* #stars {
@@ -138,8 +146,16 @@ p {
     margin-bottom: 12px;
 }
 
+ul {
+    text-align: left;
+}
+
 .text-white {
     color: white;
+}
+
+.text-left {
+    text-align: left;
 }
 
 .valign {
