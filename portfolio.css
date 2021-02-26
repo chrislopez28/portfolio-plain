@@ -15,19 +15,45 @@ body {
     box-sizing: border-box;
 }
 
+#top-container {
+    position: relative;
+    height: calc(100vh - 60px);
+}
+
 .header {
+    position: absolute;
     height: calc(100vh - 260px);
-    background-color: #1d4f9e;
+    width: 100%;
+    background-color: transparent;
     color: white;
     margin: 0;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+#particles-js {
+    background-color: #1d4f9e;
+    position: absolute;
+    height: calc(100vh - 60px);
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+canvas {
+    height: calc(100vh - 60px);
 }
 
 #top-border {
     width: auto;
+    position: absolute;
     display: block;
     margin-left: calc(-1920px + 100%);
+    top: calc(100vh - 260px);
     padding: 0;
     margin-right: 0;
+    z-index: 200;
 }
 
 /* #stars {
