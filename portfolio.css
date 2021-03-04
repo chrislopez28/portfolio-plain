@@ -7,11 +7,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f8f3;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: sans-serif;
     box-sizing: border-box;
 }
 
