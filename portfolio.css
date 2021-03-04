@@ -6,7 +6,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: #f9f8f3;
+    /* background-color: #f9f8f3; */
     font-size: 1rem;
 }
 
@@ -27,22 +27,24 @@ body {
     background-color: transparent;
     color: white;
     margin: 0;
-    z-index: 100;
     top: 0;
     left: 0;
 }
 
 #particles-js {
     background-color: #0d2955;
-    position: absolute;
+    position: fixed;
     height: calc(100vh - 60px);
     width: 100%;
     top: 0;
     left: 0;
+    z-index: -10;
 }
 
 canvas {
     height: calc(100vh - 60px);
+    z-index: -10;
+
 }
 
 #top-border {
@@ -88,6 +90,10 @@ ul {
 .valign {
     display: flex;
     align-items: center;
+}
+
+section {
+    background-color: #f9f8f3;
 }
 
 .section-content {
@@ -156,14 +162,42 @@ ul {
 }
 
 .submit-button {
-    text-align: center;  
+    text-align: center;
+    justify-content: center;
 }
 
 #footer {
-    height: calc(100vh - 520px);
+    /* height: calc(100vh - 520px); */
+    height: 128px;
     background-color: #0d2955;
-    color: white;
+    color: #c1d3fa;
     margin: 0;
+    font-size: 1rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #c1d3fa;
+    margin: 4px;
+    font-size: 1rem;
+}
+
+#footer p {
+    font-size: 0.75rem;
+}
+
+#footer a:hover,
+#footer a:active {
+    color: white;
 }
 
 @media (min-width: 500px) {
