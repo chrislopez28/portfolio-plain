@@ -34,7 +34,8 @@ body {
 #particles-js {
     background-color: #0d2955;
     position: fixed;
-    height: calc(100vh - 60px);
+    height: 100vh;
+    /* height: calc(100vh - 60px); */
     width: 100%;
     top: 0;
     left: 0;
@@ -42,7 +43,7 @@ body {
 }
 
 canvas {
-    height: calc(100vh - 60px);
+    /* height: calc(100vh - 60px); */
     z-index: -10;
 
 }
@@ -67,6 +68,10 @@ h1 {
     font-size: 3rem;
     color: rgb(29, 79, 158);
     margin: 16px auto;
+}
+
+h2 {
+    font-size: 1.25rem;
 }
 
 p {
@@ -103,13 +108,23 @@ section {
 }
 
 .divider {
+    width: 100%;
+    background-color: #f9f8f3;
+}
+
+.divider hr {
     width: 90%;
+    margin: 0 auto;
 }
 
 .project-container {
     display: flex;
     align-items: top;
     margin: 8px 0;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px #ccc solid;
+    border-style: groove;
 }
 
 .project-container img {
@@ -120,17 +135,40 @@ section {
 
 .project-description {
     text-align: left;
-    padding: 0 8px;
+    padding: 8px;
 }
 
-.project-description a {
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.link-title {
     text-decoration: none;
     color: rgb(157, 28, 28);
     font-weight: bold;
 }
 
-.project-description a:hover {
+.link-title:hover {
     color: rgb(211, 50, 50);
+}
+
+.link-button {
+    text-decoration: underline;
+    /* border: 1px solid #0d2955;
+    border-radius: 4px;
+    padding: 8px; */
+    color: rgb(29, 79, 158);
+    margin-right: 16px;
+}
+
+.link-button:hover,
+.link-button:active,
+.link-button:visited {
+    /* background-color: #d0cdbb; */
+    color: rgb(158, 29, 29);
+
 }
 
 .experience-container {
@@ -166,10 +204,16 @@ section {
     justify-content: center;
 }
 
+.bottom-border {
+    height: 8px;
+    margin: 0;
+    background-color: #F15A29;
+}
+
 #footer {
     /* height: calc(100vh - 520px); */
     height: 128px;
-    background-color: #0d2955;
+    background-color: inherit;
     color: #c1d3fa;
     margin: 0;
     font-size: 1rem;
