@@ -71,6 +71,7 @@ h1 {
 }
 
 h2 {
+    color: rgb(29, 79, 158);
     font-size: 1.25rem;
 }
 
@@ -144,16 +145,6 @@ section {
     align-items: center;
 }
 
-.link-title {
-    text-decoration: none;
-    color: rgb(157, 28, 28);
-    font-weight: bold;
-}
-
-.link-title:hover {
-    color: rgb(211, 50, 50);
-}
-
 .link-button {
     text-decoration: underline;
     /* border: 1px solid #0d2955;
@@ -161,10 +152,14 @@ section {
     padding: 8px; */
     color: rgb(29, 79, 158);
     margin-right: 16px;
+    cursor: pointer;
 }
 
 .link-button:hover,
-.link-button:active,
+.link-button:active {
+    color: rgb(11, 37, 79);
+}
+
 .link-button:visited {
     /* background-color: #d0cdbb; */
     color: rgb(158, 29, 29);
@@ -214,7 +209,7 @@ section {
     /* height: calc(100vh - 520px); */
     height: 128px;
     background-color: inherit;
-    color: #c1d3fa;
+    color: white;
     margin: 0;
     font-size: 1rem;
 }
@@ -230,7 +225,7 @@ section {
 
 #footer a {
     text-decoration: none;
-    color: #c1d3fa;
+    color: white;
     margin: 4px;
     font-size: 1rem;
 }
@@ -241,7 +236,7 @@ section {
 
 #footer a:hover,
 #footer a:active {
-    color: white;
+    color: #c1d3fa;
 }
 
 @media (min-width: 500px) {
