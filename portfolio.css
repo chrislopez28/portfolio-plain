@@ -1,249 +1,251 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    margin: 0;
-    padding: 0;
-    /* background-color: #f9f8f3; */
-    font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  /* background-color: #f9f8f3; */
+  font-size: 1rem;
 }
 
 body {
-    font-family: sans-serif;
-    box-sizing: border-box;
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 #top-container {
-    position: relative;
-    height: calc(100vh - 60px);
+  position: relative;
+  height: calc(100vh - 60px);
 }
 
 .header {
-    position: absolute;
-    height: calc(100vh - 260px);
-    width: 100%;
-    background-color: transparent;
-    color: white;
-    margin: 0;
-    top: 0;
-    left: 0;
+  position: absolute;
+  height: calc(100vh - 260px);
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  margin: 0;
+  top: 0;
+  left: 0;
 }
 
 #particles-js {
-    background-color: #0d2955;
-    position: fixed;
-    height: 100vh;
-    /* height: calc(100vh - 60px); */
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: -10;
+  background-color: #0d2955;
+  position: fixed;
+  height: 100vh;
+  /* height: calc(100vh - 60px); */
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -10;
 }
 
 canvas {
-    /* height: calc(100vh - 60px); */
-    z-index: -10;
-
+  /* height: calc(100vh - 60px); */
+  z-index: -10;
 }
 
 #top-border {
-    width: auto;
-    position: absolute;
-    display: block;
-    margin-left: calc(-1920px + 100%);
-    top: calc(100vh - 260px);
-    padding: 0;
-    margin-right: 0;
-    z-index: 200;
+  width: auto;
+  position: absolute;
+  display: block;
+  margin-left: calc(-1920px + 100%);
+  top: calc(100vh - 260px);
+  padding: 0;
+  margin-right: 0;
+  z-index: 200;
 }
 
-h1, h2, h3, h4 {
-    margin: unset;
-    font-weight: normal;
+h1,
+h2,
+h3,
+h4 {
+  margin: unset;
+  font-weight: normal;
 }
 
 h1 {
-    font-size: 3rem;
-    color: rgb(29, 79, 158);
-    margin: 16px auto;
+  font-size: 3rem;
+  color: rgb(29, 79, 158);
+  margin: 16px auto;
 }
 
 h2 {
-    color: rgb(29, 79, 158);
-    font-size: 1.25rem;
+  color: rgb(29, 79, 158);
+  font-size: 1.25rem;
 }
 
 p {
-    text-align: left;
-    margin-top: 12px; 
-    margin-bottom: 12px;
+  text-align: left;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 ul {
-    text-align: left;
+  text-align: left;
 }
 
 .text-white {
-    color: white;
+  color: white;
 }
 
 .text-left {
-    text-align: left;
+  text-align: left;
 }
 
 .valign {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 section {
-    background-color: #f9f8f3;
+  background-color: #f9f8f3;
 }
 
 .section-content {
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .divider {
-    width: 100%;
-    background-color: #f9f8f3;
+  width: 100%;
+  background-color: #f9f8f3;
 }
 
 .divider hr {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .project-container {
-    display: flex;
-    align-items: top;
-    margin: 8px 0;
-    padding: 4px;
-    border-radius: 4px;
-    border: 1px #ccc solid;
-    border-style: groove;
+  display: flex;
+  align-items: top;
+  margin: 8px 0;
+  padding: 4px;
+  border-radius: 4px;
+  border: 1px #ccc solid;
+  border-style: groove;
 }
 
-.project-container img {
-    object-fit: fill;
-    width: 60px;
-    height: 60px;
+.project-container > img {
+  object-fit: fill;
+  width: 60px;
+  height: 60px;
 }
 
 .project-description {
-    text-align: left;
-    padding: 8px;
+  text-align: left;
+  padding: 8px;
 }
 
 .image-container {
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
 }
 
 .link-button {
-    text-decoration: underline;
-    /* border: 1px solid #0d2955;
+  text-decoration: underline;
+  /* border: 1px solid #0d2955;
     border-radius: 4px;
     padding: 8px; */
-    color: rgb(29, 79, 158);
-    margin-right: 16px;
-    cursor: pointer;
+  color: rgb(29, 79, 158);
+  margin-right: 16px;
+  cursor: pointer;
 }
 
 .link-button:hover,
 .link-button:active {
-    color: rgb(11, 37, 79);
+  color: rgb(11, 37, 79);
 }
 
 .link-button:visited {
-    /* background-color: #d0cdbb; */
-    color: rgb(158, 29, 29);
-
+  /* background-color: #d0cdbb; */
+  color: rgb(158, 29, 29);
 }
 
 .experience-container {
-    text-align: left;
+  text-align: left;
 }
 
 .form {
-    padding: 8px;
-    margin-bottom: 1rem;
-    border: 1px solid rgb(29, 79, 158, 0.5);
-    border-radius: 4px;
-    text-align: left;
+  padding: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid rgb(29, 79, 158, 0.5);
+  border-radius: 4px;
+  text-align: left;
 }
 
 .form label {
-    display: block;
+  display: block;
 }
 
 .form input,
 .form textarea {
-    width: calc(100% - 8px);
-    margin: 8px auto;
-    padding: 4px;
+  width: calc(100% - 8px);
+  margin: 8px auto;
+  padding: 4px;
 }
 
 .form textarea {
-    height: 3rem;
-    font-family: 'Lato', sans-serif;
+  height: 3rem;
+  font-family: "Lato", sans-serif;
 }
 
 .submit-button {
-    text-align: center;
-    justify-content: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .bottom-border {
-    height: 8px;
-    margin: 0;
-    background-color: #F15A29;
+  height: 8px;
+  margin: 0;
+  background-color: #f15a29;
 }
 
 #footer {
-    /* height: calc(100vh - 520px); */
-    height: 128px;
-    background-color: inherit;
-    color: white;
-    margin: 0;
-    font-size: 1rem;
+  /* height: calc(100vh - 520px); */
+  height: 128px;
+  background-color: inherit;
+  color: white;
+  margin: 0;
+  font-size: 1rem;
 }
 
 .footer-content {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 #footer a {
-    text-decoration: none;
-    color: white;
-    margin: 4px;
-    font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  margin: 4px;
+  font-size: 1rem;
 }
 
 #footer p {
-    font-size: 0.75rem;
+  font-size: 0.75rem;
 }
 
 #footer a:hover,
 #footer a:active {
-    color: #c1d3fa;
+  color: #c1d3fa;
 }
 
 @media (min-width: 500px) {
-    .section-content {
-        width: 70%;
-    }
-    .divider {
-        display: none;
-    }
+  .section-content {
+    width: 70%;
+  }
+  .divider {
+    display: none;
+  }
 }
