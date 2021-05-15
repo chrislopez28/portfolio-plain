@@ -21,16 +21,25 @@
 
     <div id="top-container">
       <nav class="navigation">
+        <div class="sandwich" onclick="toggleMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
         <ul class="nav-items">
-          <li class="nav-item"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#about">About</a></li>
-          <li class="nav-item">
+          <li class="nav-item" onclick="toggleMenu(this)">
+            <a href="#">Home</a>
+          </li>
+          <li class="nav-item" onclick="toggleMenu(this)">
+            <a href="#about">About</a>
+          </li>
+          <li class="nav-item" onclick="toggleMenu(this)">
             <a href="#projects">Projects</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" onclick="toggleMenu(this)">
             <a href="#experience">Experience</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" onclick="toggleMenu(this)">
             <a href="#contact">Contact</a>
           </li>
         </ul>
