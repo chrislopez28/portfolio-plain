@@ -1,0 +1,26 @@
+.navigation {
+  position: fixed;
+  height: 3rem;
+  width: 100vw;
+  background-color: rgba(13, 40, 84, 0.75);
+  color: white;
+  z-index: 1000;
+}
+
+.nav-items {
+  all: unset;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  all: unset;
+}
+
+.nav-item a,
+.nav-item a:visited {
+  text-decoration: none;
+  color: white;
+}
