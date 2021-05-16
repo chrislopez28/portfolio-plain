@@ -124,7 +124,6 @@ section {
 }
 
 .project-container {
-  /* display: flex; */
   align-items: top;
   margin: 16px auto;
   padding: 4px;
@@ -152,33 +151,29 @@ section {
 }
 
 .link-container {
-  margin: 0 auto;
+  margin: 12px auto;
   text-align: center;
 }
 
 .link-button {
   text-decoration: none;
   font-family: "Architects Daughter", cursive;
-  border: 1px solid #0d2955;
+  font-size: 1.1rem;
   border-radius: 4px;
   padding: 8px;
   color: white;
-  background-color: rgba(29, 79, 158, 0.7);
+  background-color: rgb(240, 125, 80);
   margin-right: 16px;
   cursor: pointer;
 }
 
 .link-button:hover {
-  background-color: rgba(29, 79, 158, 0.8);
+  background-color: rgb(240, 105, 60);
 }
 
 .link-button:active {
-  background-color: rgba(29, 79, 158, 0.9);
+  background-color: rgb(241, 90, 41);
 }
-
-/* .link-button:visited {
-  color: rgb(158, 29, 29);
-} */
 
 .experience-container {
   text-align: left;
