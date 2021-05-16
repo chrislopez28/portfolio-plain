@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="portfolio.css" />
 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -82,12 +88,21 @@
         <div class="project-container">
           <div class="project-description">
             <h2>Rubik's Slide</h2>
+            <div class="image-container">
+              <video width="60%" autoplay loop muted>
+                <source
+                  src="images/rubiks_slide_screen.webm"
+                  type="video/webm"
+                />
+                Video not supported
+              </video>
+            </div>
             <p>
               Kind of like a 2D Rubik's Cube, but not exactly. You have to
               "slide" the colors on the 3x3 grid so that it matches the target.
               Built using React, Redux, and Sass.
             </p>
-            <div>
+            <div class="link-container">
               <a
                 class="link-button"
                 href="https://chrislopez28.github.io/rubiks-slide"
@@ -104,64 +119,25 @@
               >
             </div>
           </div>
-          <!-- <div class="image-container">
-            <img
-              width="60"
-              height="60"
-              src="images/rubiks_slide.gif"
-              alt="Icon image for Rubik's Slide project."
-              width="60"
-              height="60"
-            />
-          </div> -->
         </div>
 
         <div class="project-container">
-          <!-- <div class="image-container">
-            <div style="width: 60px; height: 60px"></div>
-          </div> -->
-          <div class="project-description">
-            <h2>Kebabs</h2>
-            <p>
-              A lightweight Python package for converting strings to kebab-case.
-            </p>
-            <div>
-              <img
-                src="https://travis-ci.com/chrislopez28/kebabs.svg?branch=main"
-              />
-              <a href="https://codecov.io/gh/chrislopez28/kebabs">
-                <img
-                  src="https://codecov.io/gh/chrislopez28/kebabs/branch/main/graph/badge.svg?token=1VY7MANTD3"
-                /> </a
-              ><br />
-              <a
-                class="link-button"
-                href="https://github.com/chrislopez28/kebabs"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Github</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="project-container">
-          <div class="image-container">
-            <img
-              src="images/lit.png"
-              alt="Icon image for Literary Openings project."
-              width="60"
-              height="60"
-            />
-          </div>
           <div class="project-description">
             <h2>Literary Openings</h2>
+            <div class="image-container">
+              <img
+                src="images/lit_screen.PNG"
+                alt="Screenshot of Literary Openings project."
+                width="50%"
+                loading="lazy"
+              />
+            </div>
             <p>
               I love reading. This site displays the opening line(s) of some
               famous books, plays, and poems. Can you identify the literary
               work? Built with React.
             </p>
-            <div>
+            <div class="link-container">
               <a
                 class="link-button"
                 href="https://chrislopez28.github.io/literary-openings"
@@ -181,22 +157,22 @@
         </div>
 
         <div class="project-container">
-          <div class="image-container">
-            <img
-              src="images/vset.png"
-              alt="Icon image for VSet project."
-              width="60"
-              height="60"
-            />
-          </div>
           <div class="project-description">
             <h2>VSet</h2>
+            <div class="image-container">
+              <img
+                src="images/vset_screen.png"
+                alt="Screenshot of VSet project."
+                width="75%"
+                loading="lazy"
+              />
+            </div>
             <p>
               A clone of SET, which is my favorite card game. SET is a pattern
               matching game with some interesting maths behind it. Built with
               Vue.
             </p>
-            <div>
+            <div class="link-container">
               <a
                 class="link-button"
                 href="https://chrislopez28.github.io/vset"
@@ -216,22 +192,22 @@
         </div>
 
         <div class="project-container">
-          <div class="image-container">
-            <img
-              src="images/keno.png"
-              alt="Icon image for Keno project."
-              width="60"
-              height="60"
-            />
-          </div>
           <div class="project-description">
             <h2>Keno</h2>
+            <div class="image-container">
+              <img
+                src="images/keno_screen.gif"
+                alt="Screenshot of Keno project."
+                width="50%"
+                loading="lazy"
+              />
+            </div>
             <p>
               A basic keno game that I made to practice. Not too much to say
               about this one, but I did enjoy making it. Built with plain ole
               JavaScript.
             </p>
-            <div>
+            <div class="link-container">
               <a
                 class="link-button"
                 href="https://chrislopez28.github.io/keno"
@@ -251,21 +227,21 @@
         </div>
 
         <div class="project-container">
-          <div class="image-container">
-            <img
-              src="images/conways.gif"
-              alt="Icon image for Conway's Game of Life project."
-              width="60"
-              height="60"
-            />
-          </div>
           <div class="project-description">
             <h2>Game of Life</h2>
+            <div class="image-container">
+              <img
+                src="images/conways_screen.gif"
+                alt="Screenshot of Conway's Game of Life project."
+                width="50%"
+                loading="lazy"
+              />
+            </div>
             <p>
               An implementation of Conway's Game of Life that I made to
               practice. Built with JavaScript.
             </p>
-            <div>
+            <div class="link-container">
               <a
                 class="link-button"
                 href="https://chrislopez28.github.io/conways-game-of-life"
@@ -283,6 +259,34 @@
             </div>
           </div>
         </div>
+
+        <!-- <div class="project-container">
+          <div class="project-description">
+            <h2>Kebabs</h2>
+            <p>
+              A lightweight Python package for converting strings to kebab-case.
+            </p>
+            <div>
+              <img
+                src="https://travis-ci.com/chrislopez28/kebabs.svg?branch=main"
+              />
+              <a href="https://codecov.io/gh/chrislopez28/kebabs">
+                <img
+                  src="https://codecov.io/gh/chrislopez28/kebabs/branch/main/graph/badge.svg?token=1VY7MANTD3"
+                /> </a
+              ><br />
+              <div class="link-container">
+                <a
+                  class="link-button"
+                  href="https://github.com/chrislopez28/kebabs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Github</a
+                >
+              </div>
+            </div>
+          </div>
+        </div> -->
       </div>
     </section>
 
@@ -379,6 +383,13 @@
             target="_blank"
             rel="noopener noreferrer"
             >Github</a
+          >
+          |
+          <a
+            href="https://twitter.com/hawkeyesmichris"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Twitter</a
           >
           |
           <a

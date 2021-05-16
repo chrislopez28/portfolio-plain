@@ -29,6 +29,7 @@
 .nav-item a:visited {
   text-decoration: none;
   color: white;
+  font-family: "Architects Daughter", cursive;
 }
 
 .nav-item a:hover {
@@ -36,7 +37,7 @@
 }
 
 .change {
-  height: 10rem;
+  height: 11rem;
 }
 
 .sandwich {
