@@ -150,6 +150,10 @@ section {
   text-align: center;
 }
 
+.image-container img:hover {
+  cursor: pointer;
+}
+
 .link-container {
   margin: 12px auto;
   text-align: center;

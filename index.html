@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Chris Lopez" />
-    <meta name="description" content="Software Engineer" />
+    <meta
+      name="description"
+      content="Chris' software/web developer portfolio."
+    />
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="portfolio.css" />
 
@@ -65,16 +68,56 @@
     <section id="about" class="valign">
       <div class="section-content">
         <h1>About</h1>
-        <p style="text-align: center">
+        <!-- <p style="text-align: center">
           <strong
             >I'm an engineer and software developer located in Los Angeles,
             USA.</strong
           >
+        </p> -->
+        <p>
+          Hello there 🙋🏽‍♂️! I'm Chris, an engineer and software developer located
+          in Los Angeles, USA. I create websites and apps.
         </p>
-        <p style="text-align: center">
-          I specialize in front-end development. Previously, I worked as an
-          environmental engineer doing watershed protection and data science. I
-          enjoy perusing used book stores and chasing my two year old son.
+        <p><strong>Background</strong></p>
+        <p>
+          I specialize in web development and can work on both the frontend and
+          backend. Some of the tools and technologies that I've been using
+          lately include React, Next.js, Express, MongoDB, and headless CMS. In
+          addition to web dev, I also like analyzing data and working with GIS.
+        </p>
+        <p>
+          I'm a career changer. Previously, I worked as an environmental
+          engineer focusing on
+          <a href="https://en.wikipedia.org/wiki/Watershed_management"
+            >watershed protection</a
+          >
+          🏞️ and
+          <a href="https://en.wikipedia.org/wiki/Environmental_monitoring"
+            >monitoring data</a
+          >
+          📉. In this line of work I had some opportunities to create apps and
+          automate data analyses with code. I loved these experiences so much
+          that I took the plunge to leave a good career and a great group of
+          people to focus on software development. It was/is scary going into
+          the unknown, but I feel like it's been very rewarding thus far!
+        </p>
+        <p>
+          As for interests, I enjoy reading books and perusing book stores 📚,
+          keeping up with Eiichiro Oda's masterpiece One Piece 🏴‍☠️, and chasing
+          around my two-year old son 👶.
+        </p>
+        <p><strong>Work</strong></p>
+        <p>
+          I'm currently open to freelance or full-time opportunities in the Los
+          Angeles area (or remote opportunities). If you think I'd be a good fit
+          for a job you can contact me on
+          <a
+            href="https://twitter.com/hawkeyesmichris"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Twitter</a
+          >
+          or via the <a href="#contact">Contact</a> form on this site.
         </p>
       </div>
     </section>
@@ -94,12 +137,21 @@
                 alt="Screenshot of VSet project."
                 width="75%"
                 loading="lazy"
+                onclick="window.open(this.src)"
               />
             </div>
             <p>
-              A clone of SET, which is my favorite card game. SET is a pattern
-              matching game with some interesting maths behind it. Built with
-              Vue.
+              A game based on SET®, which is my favorite card game that has some
+              interesting maths behind it (see
+              <a href="https://www-cs-faculty.stanford.edu/~knuth/programs.html"
+                >here some programs</a
+              >
+              Donald Knuth made based on the game).
+            </p>
+            <p>
+              <i>
+                Tech Used: Vue, Vuex, Adobe Illustrator (for the card art)
+              </i>
             </p>
             <div class="link-container">
               <a
@@ -115,6 +167,48 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 >Github</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <div class="project-description">
+            <h2>EngineerLearn</h2>
+            <div class="image-container">
+              <img
+                src="images/engineer_learn_screen.PNG"
+                alt="Screenshot of EngineerLearn website."
+                width="50%"
+                loading="lazy"
+                onclick="window.open(this.src)"
+              />
+            </div>
+            <p>
+              An educational website for engineers in the US studying for their
+              FE and PE exams. It'll focus mainly on the FE exam and potentially
+              the civil and chemical PE exams (since I have experience with both
+              of those). Kind of like a
+              <a
+                href="https://projecteuler.net"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Project Euler</a
+              >
+              for engineers, but the problems are a lot more straightforward.
+              Users will be able to login (OAuth) through their Google or GitHub
+              accounts (right now I'm not allowing logins as I add content).
+            </p>
+            <p>
+              <i> Tech Used: React, Next.js, NextAuth.js, Material-UI </i>
+            </p>
+            <div class="link-container">
+              <a
+                class="link-button"
+                href="https://engineerlearn.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Website Link</a
               >
             </div>
           </div>
@@ -138,12 +232,15 @@
                 alt="Screenshot of Rubik's Slide App."
                 width="50%"
                 loading="lazy"
+                onclick="window.open(this.src)"
               />
             </div>
             <p>
               Kind of like a 2D Rubik's Cube, but not exactly. You have to
               "slide" the colors on the 3x3 grid so that it matches the target.
-              Built using React, Redux, and Sass.
+            </p>
+            <p>
+              <i> Tech Used: React, Redux, SASS </i>
             </p>
             <div class="link-container">
               <a
@@ -151,7 +248,7 @@
                 href="https://chrislopez28.github.io/rubiks-slide"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Play</a
+                >App Link</a
               >
               <a
                 class="link-button"
@@ -173,12 +270,16 @@
                 alt="Screenshot of Literary Openings project."
                 width="50%"
                 loading="lazy"
+                onclick="window.open(this.src)"
               />
             </div>
             <p>
-              I love reading. This site displays the opening line(s) of some
+              I'm an avid reader. This site displays the opening line(s) of some
               famous books, plays, and poems. Can you identify the literary
-              work? Built with React.
+              work?
+            </p>
+            <p>
+              <i> Tech Used: React, FastAPI (Python), REST</i>
             </p>
             <div class="link-container">
               <a
@@ -186,7 +287,7 @@
                 href="https://chrislopez28.github.io/literary-openings"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Play</a
+                >App Link</a
               >
               <a
                 class="link-button"
@@ -208,12 +309,15 @@
                 alt="Screenshot of Keno project."
                 width="50%"
                 loading="lazy"
+                onclick="window.open(this.src)"
               />
             </div>
             <p>
-              A basic keno game that I made to practice. Not too much to say
-              about this one, but I did enjoy making it. Built with plain ole
-              JavaScript.
+              A basic keno game that I enjoyed making. Built with no frameworks
+              / libraries.
+            </p>
+            <p>
+              <i> Tech Used: HTML, CSS, JavaScript</i>
             </p>
             <div class="link-container">
               <a
@@ -221,7 +325,7 @@
                 href="https://chrislopez28.github.io/keno"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Play</a
+                >App Link</a
               >
               <a
                 class="link-button"
@@ -243,11 +347,15 @@
                 alt="Screenshot of Conway's Game of Life project."
                 width="50%"
                 loading="lazy"
+                onclick="window.open(this.src)"
               />
             </div>
             <p>
               An implementation of Conway's Game of Life that I made to
-              practice. Built with JavaScript.
+              practice. Built with no frameworks / libraries.
+            </p>
+            <p>
+              <i> Tech Used: HTML, CSS, JavaScript</i>
             </p>
             <div class="link-container">
               <a
@@ -255,7 +363,7 @@
                 href="https://chrislopez28.github.io/conways-game-of-life"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Play</a
+                >App Link</a
               >
               <a
                 class="link-button"
@@ -408,7 +516,10 @@
           >
         </div>
         <div>
-          <p>2021 Chris Lopez</p>
+          <p>
+            &#169; 2021 | Created and designed with 💚 by Chris Lopez in pure
+            HTML, CSS, and JavaScript.
+          </p>
         </div>
       </div>
     </footer>
