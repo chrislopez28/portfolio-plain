@@ -247,6 +247,11 @@ section {
   font-size: 0.75rem;
 }
 
+#footer p > a {
+  margin: 0;
+  font-size: 0.75rem;
+}
+
 #footer a:hover,
 #footer a:active {
   color: #c1d3fa;
