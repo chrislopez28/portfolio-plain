@@ -13,3 +13,9 @@ function toggleMenu(el) {
     document.getElementsByClassName("nav-items")[0].classList.toggle("change");
   }
 }
+
+function scrollToSection(sectionTitle) {
+  document.getElementById(sectionTitle).scrollIntoView({
+    behavior: 'smooth'
+  });
+}
