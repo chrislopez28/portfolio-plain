@@ -8,8 +8,8 @@
       name="description"
       content="Chris' software/web developer portfolio."
     />
-    <link rel="stylesheet" href="header.css" />
-    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/portfolio.css" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -21,12 +21,16 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> -->
     <title>Chris Lopez</title>
   </head>
 
   <body>
-    <script src="app.js"></script>
+    <!-- <script src="./src/index.js"> -->
+    <script src="main.js"></script>
+    <script>
+        particlesJS.load("particles-js", "assets/particles.json", function () {});
+    </script>
 
     <div id="top-container">
       <nav class="navigation">
@@ -37,7 +41,7 @@
         </div>
         <ul class="nav-items">
           <li class="nav-item" onclick="toggleMenu(this)">
-            <a href="javascript:void(0)" onclick="scrollToSection('home')">Home</a>
+            <a href="javascript:void(0)" onclick="scrollToSection('top-container')">Home</a>
           </li>
           <li class="nav-item" onclick="toggleMenu(this)">
             <a href="javascript:void(0)" onclick="scrollToSection('about')">About</a>
@@ -57,7 +61,7 @@
           <h1 class="text-white">Chris Lopez</h1>
         </div>
       </header>
-      <img id="top-border" src="images/web-border.png" alt="" />
+      <img id="top-border" src="assets/images/web-border.png" alt="" />
     </div>
 
     <section id="about" class="valign">
@@ -69,9 +73,11 @@
         </p>
       </div>
     </section>
+
     <div class="divider">
       <hr />
     </div>
+    
     <section id="projects" class="valign">
       <div class="section-content">
         <h1>Projects</h1>
@@ -81,7 +87,7 @@
             <h2>VSet</h2>
             <div class="image-container">
               <img
-                src="images/vset_screen.png"
+                src="assets/images/vset_screen.png"
                 alt="Screenshot of VSet project."
                 width="75%"
                 loading="lazy"
@@ -121,7 +127,7 @@
             <h2>Nomadland Mileage</h2>
             <div class="image-container">
               <img
-                src="images/nomadland.jpg"
+                src="assets/images/nomadland.jpg"
                 alt="Screenshot of Nomadland Data Viz."
                 width="75%"
                 loading="lazy"
@@ -153,7 +159,7 @@
             <h2>EngineerLearn</h2>
             <div class="image-container">
               <img
-                src="images/engineer_learn_screen.PNG"
+                src="assets/images/engineer_learn_screen.PNG"
                 alt="Screenshot of EngineerLearn website."
                 width="50%"
                 loading="lazy"
@@ -187,7 +193,7 @@
             <h2>Rubik's Slide</h2>
             <div class="image-container">
               <img
-                src="images/rubiks_slide.PNG"
+                src="assets/images/rubiks_slide.PNG"
                 alt="Screenshot of Rubik's Slide App."
                 width="50%"
                 loading="lazy"
@@ -225,7 +231,7 @@
             <h2>Literary Openings</h2>
             <div class="image-container">
               <img
-                src="images/lit_screen.PNG"
+                src="assets/images/lit_screen.PNG"
                 alt="Screenshot of Literary Openings project."
                 width="50%"
                 loading="lazy"
@@ -263,7 +269,7 @@
             <h2>Keno</h2>
             <div class="image-container">
               <img
-                src="images/keno_screen.png"
+                src="assets/images/keno_screen.png"
                 alt="Screenshot of Keno project."
                 width="50%"
                 loading="lazy"
@@ -300,7 +306,7 @@
             <h2>Game of Life</h2>
             <div class="image-container">
               <img
-                src="images/conways_screen.png"
+                src="assets/images/conways_screen.png"
                 alt="Screenshot of Conway's Game of Life project."
                 width="50%"
                 loading="lazy"
