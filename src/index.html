@@ -6,7 +6,7 @@
     <meta name="author" content="Chris Lopez" />
     <meta
       name="description"
-      content="Chris' software/web developer portfolio."
+      content="Chris Lopez - Software Developer."
     />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/portfolio.css" />
@@ -17,21 +17,14 @@
       rel="stylesheet"
     />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <!-- <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
+    <link rel="manifest" href="/assets/site.webmanifest" />
     <title>Chris Lopez</title>
   </head>
 
   <body>
-    <!-- <script src="./src/index.js"> -->
-    <script src="main.js"></script>
-    <script>
-        particlesJS.load("particles-js", "assets/particles.json", function () {});
-    </script>
-
     <div id="top-container">
       <nav class="navigation">
         <div class="sandwich" onclick="toggleMenu(this)">
@@ -56,297 +49,68 @@
       </nav>
 
       <div id="particles-js"></div>
+
       <header id="header" class="header valign">
-        <div class="section-content">
+        <div style="text-align: center; margin: 0 auto">
           <h1 class="text-white">Chris Lopez</h1>
         </div>
       </header>
       <img id="top-border" src="assets/images/web-border.png" alt="" />
     </div>
 
-    <section id="about" class="valign">
-      <div class="section-content">
-        <h1>About</h1>
+    <section style="padding-top: 5px;">
+      <div id="about" class="section-content">
+        <h2>About</h2>
         <p>
-          Hello there 🙋🏽‍♂️! I'm Chris, a software developer located
+          Hello there, I'm a software developer located
           in Los Angeles, USA.
         </p>
       </div>
-    </section>
 
-    <div class="divider">
-      <hr />
-    </div>
-    
-    <section id="projects" class="valign">
-      <div class="section-content">
-        <h1>Projects</h1>
+      <!-- <div id="posts" class="section-content">
+        <h2>Posts</h2>
+        <ul>  
+        </ul>
+      </div> -->
 
-        <div class="project-container">
-          <div class="project-description">
-            <h2>VSet</h2>
-            <div class="image-container">
-              <img
-                src="assets/images/vset_screen.png"
-                alt="Screenshot of VSet project."
-                width="75%"
-                loading="lazy"
-                onclick="window.open(this.src)"
-              />
-            </div>
-            <p>
-              A game based on SET®, which is my favorite card game that has some
-              interesting maths behind it.
-            </p>
-            <p>
-              <i>
-                Tech Used: Vue, Vuex, Adobe Illustrator (for the card art)
-              </i>
-            </p>
-            <div class="link-container">
-              <a
-                class="link-button"
-                href="https://chrislopez28.github.io/vset"
-                target="_blank"
-                rel="noopener noreferrer"
-                >App Link</a
-              >
-              <a
-                class="link-button"
-                href="https://github.com/chrislopez28/vset"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Github</a
-              >
-            </div>
-          </div>
-        </div>
+      <div id="projects" class="section-content">
+        <h2>Projects</h2>
 
-        <div class="project-container">
-          <div class="project-description">
-            <h2>Nomadland Mileage</h2>
-            <div class="image-container">
-              <img
-                src="assets/images/nomadland.jpg"
-                alt="Screenshot of Nomadland Data Viz."
-                width="75%"
-                loading="lazy"
-                onclick="window.open(this.src)"
-              />
-            </div>
-            <p>
-              A little visualization that tracks Fern's journey (and miles traveled) in the film Nomadland.
-            </p>
-            <p>
-              <i>
-                Tech Used: D3, Google Maps API
-              </i>
-            </p>
-            <div class="link-container">
-              <a
-                class="link-button"
-                href="https://observablehq.com/@chrislopez28/places-in-the-film-nomadland"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Link</a
-              >
-            </div>
-          </div>
-        </div>
+        <h3>Apps</h3>
+        <ul>
+          <li>
+            <a href="https://chrislopez28.github.io/vset" target="_blank" rel="noopener noreferrer">VSet</a> (<a href="https://github.com/chrislopez28/vset" target="_blank" rel="noopener noreferrer">Github</a>) - A game based on SET®, which is my favorite card game that has some interesting maths behind it. 
+          </li>
+          <li>
+            <a href="https://engineerlearn.com" target="_blank" rel="noopener noreferrer">EngineerLearn</a> - A prototype for an educational website for engineers in the US studying for their FE and PE exams. 
+          </li>
+          <li>
+            <a href="https://chrislopez28.github.io/rubiks-slide" target="_blank" rel="noopener noreferrer">Rubik's Slide</a> (<a href="https://github.com/chrislopez28/rubiks-slide" target="_blank" rel="noopener noreferrer">Github</a>) - Kind of like a 2D Rubik's Cube, but not exactly. You have to "slide" the colors on the 3x3 grid so that it matches the target.
+          </li>
+          <li>
+            <a href="https://chrislopez28.github.io/literary-openings" target="_blank" rel="noopener noreferrer">Literary Openings</a> (<a href="https://github.com/chrislopez28/literary-openings" target="_blank" rel="noopener noreferrer">Github</a>) - Simple game that displays the opening line(s) from some famous books, plays, and poems.
+          </li>
+          <li>
+            <a href="https://chrislopez28.github.io/keno" target="_blank" rel="noopener noreferrer">Keno</a> (<a href="https://github.com/chrislopez28/keno" target="_blank" rel="noopener noreferrer">Github</a>) - A basic keno game built in JS.
+          </li>
+          <li>
+            <a href="https://chrislopez28.github.io/conways-game-of-life" target="_blank" rel="noopener noreferrer">Game of Life</a> (<a href="https://github.com/chrislopez28/conways-game-of-life" target="_blank" rel="noopener noreferrer">Github</a>) - An implementation of Conway's Game of Life.
+          </li>
+        </ul>
 
-        <div class="project-container">
-          <div class="project-description">
-            <h2>EngineerLearn</h2>
-            <div class="image-container">
-              <img
-                src="assets/images/engineer_learn_screen.PNG"
-                alt="Screenshot of EngineerLearn website."
-                width="50%"
-                loading="lazy"
-                onclick="window.open(this.src)"
-              />
-            </div>
-            <p>
-              A prototype for an educational website for engineers in the US studying for their
-              FE and PE exams. 
-            </p>
-            <p>
-              <i>
-                Tech Used: React, Next.js, NextAuth.js, MongoDB, KaTeX,
-                Material-UI, Jest
-              </i>
-            </p>
-            <div class="link-container">
-              <a
-                class="link-button"
-                href="https://engineerlearn.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Website Link</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="project-container">
-          <div class="project-description">
-            <h2>Rubik's Slide</h2>
-            <div class="image-container">
-              <img
-                src="assets/images/rubiks_slide.PNG"
-                alt="Screenshot of Rubik's Slide App."
-                width="50%"
-                loading="lazy"
-                onclick="window.open(this.src)"
-              />
-            </div>
-            <p>
-              Kind of like a 2D Rubik's Cube, but not exactly. You have to
-              "slide" the colors on the 3x3 grid so that it matches the target.
-            </p>
-            <p>
-              <i> Tech Used: React, Redux, SASS </i>
-            </p>
-            <div class="link-container">
-              <a
-                class="link-button"
-                href="https://chrislopez28.github.io/rubiks-slide"
-                target="_blank"
-                rel="noopener noreferrer"
-                >App Link</a
-              >
-              <a
-                class="link-button"
-                href="https://github.com/chrislopez28/rubiks-slide"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Github</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="project-container">
-          <div class="project-description">
-            <h2>Literary Openings</h2>
-            <div class="image-container">
-              <img
-                src="assets/images/lit_screen.PNG"
-                alt="Screenshot of Literary Openings project."
-                width="50%"
-                loading="lazy"
-                onclick="window.open(this.src)"
-              />
-            </div>
-            <p>
-              Simple game that displays the opening line(s) from some
-              famous books, plays, and poems.s
-            </p>
-            <p>
-              <i> Tech Used: React, FastAPI (Python), REST</i>
-            </p>
-            <div class="link-container">
-              <a
-                class="link-button"
-                href="https://chrislopez28.github.io/literary-openings"
-                target="_blank"
-                rel="noopener noreferrer"
-                >App Link</a
-              >
-              <a
-                class="link-button"
-                href="https://github.com/chrislopez28/literary-openings"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Github</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="project-container">
-          <div class="project-description">
-            <h2>Keno</h2>
-            <div class="image-container">
-              <img
-                src="assets/images/keno_screen.png"
-                alt="Screenshot of Keno project."
-                width="50%"
-                loading="lazy"
-                onclick="window.open(this.src)"
-              />
-            </div>
-            <p>
-              A basic keno game built in JS.
-            </p>
-            <p>
-              <i> Tech Used: HTML, CSS, JavaScript</i>
-            </p>
-            <div class="link-container">
-              <a
-                class="link-button"
-                href="https://chrislopez28.github.io/keno"
-                target="_blank"
-                rel="noopener noreferrer"
-                >App Link</a
-              >
-              <a
-                class="link-button"
-                href="https://github.com/chrislopez28/keno"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Github</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="project-container">
-          <div class="project-description">
-            <h2>Game of Life</h2>
-            <div class="image-container">
-              <img
-                src="assets/images/conways_screen.png"
-                alt="Screenshot of Conway's Game of Life project."
-                width="50%"
-                loading="lazy"
-                onclick="window.open(this.src)"
-              />
-            </div>
-            <p>
-              An implementation of Conway's Game of Life.
-            </p>
-            <p>
-              <i> Tech Used: HTML, CSS, JavaScript</i>
-            </p>
-            <div class="link-container">
-              <a
-                class="link-button"
-                href="https://chrislopez28.github.io/conways-game-of-life"
-                target="_blank"
-                rel="noopener noreferrer"
-                >App Link</a
-              >
-              <a
-                class="link-button"
-                href="https://github.com/chrislopez28/conways-game-of-life"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Github</a
-              >
-            </div>
-          </div>
-        </div>
+        <h3 style="text-align: left">Visualizations</h3>
+        <ul>
+          <li>
+            <a href="https://observablehq.com/@chrislopez28/pizza-proof" target="_blank">Pizza Proof</a> - Approximate the area of a circle by pizza slices
+          </li>
+          <li>
+            <a href="https://observablehq.com/@chrislopez28/places-in-the-film-nomadland" target="_blank" rel="noopener noreferrer">Nomadland Mileage</a> - A little visualization that tracks Fern's journey (and miles traveled) in the film Nomadland.
+          </li>
+        </ul>
       </div>
-    </section>
 
-    <div class="divider">
-      <hr />
-    </div>
-
-    <section id="contact" class="valign">
-      <div class="section-content">
-        <h1>Contact Me</h1>
+      <div id="contact" class="section-content">
+        <h2>Contact Me</h2>
         <p>Want to say hello? Send me a message using the form below.</p>
         <form
           class="form"
@@ -415,4 +179,10 @@
       </div>
     </footer>
   </body>
+
+  <script src="main.js"></script>
+  <script>
+      particlesJS.load("particles-js", "assets/particles.json", function () {});
+  </script>
+
 </html>

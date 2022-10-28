@@ -29,7 +29,7 @@
 .nav-item a:visited {
   text-decoration: none;
   color: white;
-  font-family: "Architects Daughter", cursive;
+  /* font-family: "Architects Daughter", cursive; */
 }
 
 .nav-item a:hover {
